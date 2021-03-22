@@ -1,2 +1,0 @@
-vision
--DCATKIN_DEVEL_PREFIX=/home/ubuntu/robotica2021/rubot_opencv_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotica2021/rubot_opencv_ws/install -G Unix Makefiles
