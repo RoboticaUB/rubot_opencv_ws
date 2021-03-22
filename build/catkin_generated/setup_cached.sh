@@ -7,4 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/mpuig/rubot_opencv_ws/build'
+export CMAKE_PREFIX_PATH="/home/ubuntu/robotica2021/rubot_opencv_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ubuntu/robotica2021/rubot_opencv_ws/devel/lib:$LD_LIBRARY_PATH"
+export PWD='/home/ubuntu/robotica2021/rubot_opencv_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/robotica2021/rubot_opencv_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/ubuntu/robotica2021/rubot_opencv_ws/src:$ROS_PACKAGE_PATH"

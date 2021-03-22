@@ -1,4 +1,4 @@
-prefix=/home/mpuig/rubot_opencv_ws/devel
+prefix=/home/ubuntu/robotica2021/rubot_opencv_ws/devel
 
 Name: vision
 Description: Description of vision

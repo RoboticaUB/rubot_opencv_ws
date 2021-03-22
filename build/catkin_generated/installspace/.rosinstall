@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/mpuig/rubot_opencv_ws/install/setup.sh
+    local-name: /home/ubuntu/robotica2021/rubot_opencv_ws/install/setup.sh

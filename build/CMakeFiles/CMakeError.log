@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/mpuig/rubot_opencv_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/robotica2021/rubot_opencv_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_573e0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_573e0.dir/build.make CMakeFiles/cmTC_573e0.dir/build
-make[1]: Entering directory '/home/mpuig/rubot_opencv_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_573e0.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_573e0.dir/CheckSymbolExists.c.o   -c /home/mpuig/rubot_opencv_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_573e0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_573e0.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_573e0.dir/CheckSymbolExists.c.o  -o cmTC_573e0 
-CMakeFiles/cmTC_573e0.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_ebcf5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebcf5.dir/build.make CMakeFiles/cmTC_ebcf5.dir/build
+make[1]: Entering directory '/home/ubuntu/robotica2021/rubot_opencv_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebcf5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ebcf5.dir/CheckSymbolExists.c.o   -c /home/ubuntu/robotica2021/rubot_opencv_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ebcf5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebcf5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ebcf5.dir/CheckSymbolExists.c.o  -o cmTC_ebcf5 
+CMakeFiles/cmTC_ebcf5.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_573e0.dir/build.make:97: recipe for target 'cmTC_573e0' failed
-make[1]: *** [cmTC_573e0] Error 1
-make[1]: Leaving directory '/home/mpuig/rubot_opencv_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_573e0/fast' failed
-make: *** [cmTC_573e0/fast] Error 2
+CMakeFiles/cmTC_ebcf5.dir/build.make:97: recipe for target 'cmTC_ebcf5' failed
+make[1]: *** [cmTC_ebcf5] Error 1
+make[1]: Leaving directory '/home/ubuntu/robotica2021/rubot_opencv_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ebcf5/fast' failed
+make: *** [cmTC_ebcf5/fast] Error 2
 
-File /home/mpuig/rubot_opencv_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ubuntu/robotica2021/rubot_opencv_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/mpuig/rubot_opencv_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/robotica2021/rubot_opencv_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68e2c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68e2c.dir/build.make CMakeFiles/cmTC_68e2c.dir/build
-make[1]: Entering directory '/home/mpuig/rubot_opencv_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_68e2c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_68e2c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_68e2c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68e2c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_68e2c.dir/CheckFunctionExists.c.o  -o cmTC_68e2c -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_b561f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b561f.dir/build.make CMakeFiles/cmTC_b561f.dir/build
+make[1]: Entering directory '/home/ubuntu/robotica2021/rubot_opencv_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b561f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b561f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b561f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b561f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b561f.dir/CheckFunctionExists.c.o  -o cmTC_b561f -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_68e2c.dir/build.make:97: recipe for target 'cmTC_68e2c' failed
-make[1]: *** [cmTC_68e2c] Error 1
-make[1]: Leaving directory '/home/mpuig/rubot_opencv_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_68e2c/fast' failed
-make: *** [cmTC_68e2c/fast] Error 2
+CMakeFiles/cmTC_b561f.dir/build.make:97: recipe for target 'cmTC_b561f' failed
+make[1]: *** [cmTC_b561f] Error 1
+make[1]: Leaving directory '/home/ubuntu/robotica2021/rubot_opencv_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b561f/fast' failed
+make: *** [cmTC_b561f/fast] Error 2
 
 

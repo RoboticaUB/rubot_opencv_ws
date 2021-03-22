@@ -67,14 +67,14 @@ set(vision_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(vision_SOURCE_PREFIX /home/mpuig/rubot_opencv_ws/src/vision)
-  set(vision_DEVEL_PREFIX /home/mpuig/rubot_opencv_ws/devel)
+  set(vision_SOURCE_PREFIX /home/ubuntu/robotica2021/rubot_opencv_ws/src/vision)
+  set(vision_DEVEL_PREFIX /home/ubuntu/robotica2021/rubot_opencv_ws/devel)
   set(vision_INSTALL_PREFIX "")
   set(vision_PREFIX ${vision_DEVEL_PREFIX})
 else()
   set(vision_SOURCE_PREFIX "")
   set(vision_DEVEL_PREFIX "")
-  set(vision_INSTALL_PREFIX /home/mpuig/rubot_opencv_ws/install)
+  set(vision_INSTALL_PREFIX /home/ubuntu/robotica2021/rubot_opencv_ws/install)
   set(vision_PREFIX ${vision_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mpuig/rubot_opencv_ws/install/lib;/home/mpuig/rubot_opencv_ws/devel/lib;/home/mpuig/turtlebot3_pc_ws/devel/lib;/home/mpuig/rUBotCoop_LabProject/devel/lib;/home/mpuig/rUBotCoop_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/ubuntu/robotica2021/rubot_opencv_ws/install/lib;/home/ubuntu/robotica2021/gopigo_pc_ws/devel/lib;/home/ubuntu/robotica2021/rubot_tutorial_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
