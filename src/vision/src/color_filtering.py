@@ -2,7 +2,6 @@
 
 import numpy as np
 import cv2
-import imutils
 
 image = cv2.imread("images/tennisball05.jpg")
 cv2.imshow("Original",image)
